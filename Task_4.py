@@ -21,9 +21,9 @@
 # print(*names ,sep="\n")
 
 #OR
-name = input("Enter five names separated by spaces: ").lower().split()
-name.sort()
-print(*name, sep="\n")
+# name = input("Enter five names separated by spaces: ").lower().split()
+# name.sort()
+# print(*name, sep="\n")
 
 # #Task 5 Student Score Tracker
 # list_name = []
@@ -33,3 +33,10 @@ print(*name, sep="\n")
 # score = int(input("Enter the score for each student: "))
 # list_name =name.copy()
 # print(list_name)
+
+#Task 7 List manipulation
+cities = ["Lagos", "Abuja", "New York", "Nottingham", "Dublin"]
+cities[3] = "Abeokuta"
+cities.pop()
+cities.insert(0, "Barcelona")
+print(cities)
